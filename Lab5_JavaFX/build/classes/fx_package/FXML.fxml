@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_package.Controller">
+   <children>
+      <Label layoutX="51.0" layoutY="99.0" text="Name" />
+      <TextField fx:id="txtName" layoutX="107.0" layoutY="95.0" prefHeight="26.0" prefWidth="389.0" />
+      <Label layoutX="51.0" layoutY="134.0" text="Age" />
+      <TextField fx:id="txtAge" layoutX="107.0" layoutY="130.0" prefHeight="26.0" prefWidth="154.0" />
+      <Label layoutX="51.0" layoutY="170.0" text="Email" />
+      <TextField fx:id="txtEmail" layoutX="107.0" layoutY="166.0" prefHeight="26.0" prefWidth="389.0" />
+      <Button fx:id="btnSubmit" layoutX="268.0" layoutY="250.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="82.0" text="Submit" />
+      <Label layoutX="224.0" layoutY="18.0" prefHeight="44.0" prefWidth="154.0" text="Registration">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
